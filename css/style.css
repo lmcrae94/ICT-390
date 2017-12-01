@@ -30,13 +30,13 @@ nav ul li a {
   text-decoration: none;
 }
 
-#topnav {
+#mainnav {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#topnav ul li {
+#mainnav ul li {
   display: inline;
   font-size: 1em;
   padding: 1em 2.5em 1em 2.5em;
