@@ -82,12 +82,31 @@ h3 {
   color: white;
 }
 
+h4 {
+  display: block;
+  color: white;
+}
+
 #maincontent {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 1200px;
   margin: auto;
+}
+
+#gallerymaincontent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: auto;
+}
+
+#gallerymaincontent img {
+  height: 300px;
+  width: 500px;
+  padding: 50px;
 }
 
 #sidenav {
@@ -142,6 +161,28 @@ h3 {
   flex-direction: row;
   width: 1000px;
   margin: auto;
+}
+
+#mercedesinfo {
+  display: block;
+  width: 875px;
+  float: right;
+}
+
+#autounioninfo {
+  display: block;
+  width: 875px;
+  float: right;
+}
+
+#image1 {
+  float: right;
+  padding-left: 20px;
+}
+
+#image2 {
+  float: left;
+  padding-right: 20px;
 }
 
 #gallerypage {
@@ -210,11 +251,6 @@ h3 {
 #autounionlink img {
   width: 500px;
   height: 300px;
-}
-
-h2 {
-  height: 22px;
-  width: 300px;
 }
 
 footer {
